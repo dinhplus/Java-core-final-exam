@@ -1,4 +1,4 @@
- package com.company;
+package com.company;
 
 import java.util.Scanner;
 
@@ -55,11 +55,9 @@ public class Product {
         System.out.println("Enter name: ");
         setProductName(input.nextLine());
         System.out.println("Enter price: ");
-        setProductName(input.nextLine());
+        setPrice(input.nextFloat());
         System.out.println("Enter discount: ");
-        setProductName(input.nextLine());
-
-
+        setDiscount(input.nextFloat());
 
     }
     //Method print() to show product details
